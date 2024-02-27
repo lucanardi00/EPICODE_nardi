@@ -21,6 +21,11 @@ footer{
     margin-top: 200px;
 }
 
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
 #nav {
     margin: auto;
     padding: 0;

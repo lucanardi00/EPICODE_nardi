@@ -55,4 +55,9 @@ main h2{
 #descimg2{
     border-left: 2px solid rgb(241, 202, 73);
     padding: 1%;
+    color: rgb(175, 36, 36);
+}
+
+.desclist{
+    font-weight: 700;
 }

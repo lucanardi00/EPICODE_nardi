@@ -74,6 +74,19 @@ table, th, td {
     border-radius: 10%;
 }
 
+/*#articolo1{
+    float: inline-start;
+}
+
+#articolo3{
+    float: inline-end;
+}
+
+#articolo2{
+    
+}
+
+*/
 #newsletter{
     text-align: center;
 }

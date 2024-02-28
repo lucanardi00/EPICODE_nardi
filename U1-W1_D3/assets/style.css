@@ -1,0 +1,43 @@
+header{
+    text-align: center;
+}
+
+header img{
+    width: 10%;
+}
+
+header p{
+    border-top: 2px solid #ebd34d;
+    background-color: rgb(235, 211, 77, 0.2);
+    padding: 1%;
+    color: #147069;
+}
+
+header p span{
+    font-weight: 700;
+}
+
+main, footer{
+    margin: auto;
+    max-width: 50%;
+}
+
+main h1{
+    text-align: center;
+}
+
+main img{
+    border-radius: 2%;
+}
+
+
+
+#descimg{
+    text-align: center;
+    color: rgb(128, 129, 131);
+}
+
+#descimg2{
+    border-left: 2px solid rgb(241, 202, 73);
+    padding: 1%;
+}

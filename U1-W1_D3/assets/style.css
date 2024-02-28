@@ -47,6 +47,9 @@ main h2{
     border-bottom: 1px solid #62eee2;
     padding-bottom: 2%;
 }
+ul{
+    line-height: 2em;
+}
 
 #descimg{
     text-align: center;

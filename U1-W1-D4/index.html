@@ -4,8 +4,192 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>EPICODE - Il blog dei developers</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
 
-  <body></body>
+  <body>
+    <header>
+      <div>
+        <img src="assets/img/logo.svg" alt="epicode logo" />
+        <p>EPICODE - IL BLOG DEI DEVELOPERS</p>
+        <nav>
+          <ul>
+            <li>
+              <a href="#"
+                ><i class="fas fa-arrow-right"></i>HOME<i
+                  class="fas fa-arrow-left"
+                ></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fas fa-arrow-right"></i>ARTICOLI<i
+                  class="fas fa-arrow-left"
+                ></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fas fa-arrow-right"></i>LAVORA CON NOI<i
+                  class="fas fa-arrow-left"
+                ></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <article>
+        <h1>Come creare un template per i post</h1>
+        <p id="subtitle">
+          <i class="fas fa-pen-square"></i> di Mario Rossi -
+          <i class="fas fa-clock"></i> pubblicato il 25-10-2020
+        </p>
+        <p>
+          La prima cosa da fare è suddividere in blocchi logici la pagina,
+          identificando le <span id="spanp">parti comuni</span> da applicare a
+          tutte le pagine
+        </p>
+        <p>Le varie aree saranno quindi suddivise in:</p>
+        <ul>
+          <li>
+            Contenuti di intestazione del tag
+            <span class="code">&lt;header&gt;</span>
+          </li>
+          <li>
+            Contenuti centrali variabili del tag
+            <span class="code">&lt;main&gt;</span>(Corpo Principale)
+          </li>
+          <li>
+            Contenuti di fine pagina comuni, da inserire nel tag
+            <span class="code">&lt;footer&gt;</span>
+          </li>
+        </ul>
+        <h3>Formattazione del codice</h3>
+        <p>
+          Il testo dell'articolo dovrà essere formattato per identificare tutte
+          le parti da <span id="spanp">selezionare con i CSS</span>. Perciò i
+          passi saranno:
+        </p>
+        <ol>
+          <li>
+            Progettare il markup assegnando ad ogni specifico testo il tag
+            appropriato.
+          </li>
+          <li>
+            Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso
+            il basso.
+          </li>
+          <li>Applicare gli stili CSS.</li>
+        </ol>
+        <p>
+          L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere
+          la diffusione pressocché totale.
+        </p>
+        <table>
+          <thead>
+            <h4 id="thead">Diffusione del CSS</h4>
+          </thead>
+          <tr>
+            <th>Anno</th>
+            <th>% di utilizzo</th>
+            <th>Supporto browsers</th>
+          </tr>
+          <tr class="tr1">
+            <td>2000</td>
+            <td>20%</td>
+            <td>17%</td>
+          </tr>
+          <tr class="tr2">
+            <td>2002</td>
+            <td>35%</td>
+            <td>22%</td>
+          </tr>
+          <tr class="tr1">
+            <td>2004</td>
+            <td>45%</td>
+            <td>42%</td>
+          </tr>
+          <tr class="tr2">
+            <td>2008</td>
+            <td>80%</td>
+            <td>51%</td>
+          </tr>
+          <tr class="tr1">
+            <td>2012</td>
+            <td>100%</td>
+            <td>76%</td>
+          </tr>
+        </table>
+        <p>
+          Un test di validazione potrà essere fatto tramite il
+          <a href="https://www.google.it">tool online</a> dedicato allo scopo.
+          Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo
+          ed essere stati dei veri developers come loro:
+        </p>
+      </article>
+      <iframe
+        src="https://www.youtube.com/embed/IjzdMvuzxDY?si=_Tb1zFtvju32XldX"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <div class="news">
+        <h1>NOVITÀ</h1>
+        <p>
+          Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla
+          nostra newsletter:
+        </p>
+        <form action="button">
+          <div id="news">
+            <input
+              type="email"
+              placeholder="inserisci l'email"
+              id="emailinput"
+            />
+            <button type="button">Iscriviti!</button>
+            <footer></footer>
+          </div>
+        </form>
+      </div>
+      <aside>
+        <h1>Articoli Correlati</h1>
+        <div id="articoli">
+          <a href="#">
+            <div id="articolo1">
+              <p>Validare il codice HTML</p>
+              <p>Categoria: develop</p>
+              <p>Data: 18-09-2020</p>
+            </div>
+          </a>
+        </div>
+        <a href="#">
+          <div id="articolo2">
+            <p>Correggere la sintassi</p>
+            <p>Categoria: develop</p>
+            <p>Data: 16-09-2020</p>
+          </div>
+        </a>
+        <a href="#">
+          <div id="articolo3">
+            <p>Meno Kb nella pagina</p>
+            <p>Categoria: develop</p>
+            <p>Data: 30-09-2020</p>
+          </div>
+        </a>
+      </aside>
+    </main>
+    <footer></footer>
+  </body>
 </html>
